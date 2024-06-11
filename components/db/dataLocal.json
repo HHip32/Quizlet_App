@@ -1,0 +1,239 @@
+{
+  "users": [
+    {
+      "dob": "13-06-2002",
+      "email": "hiep@gmail.com",
+      "name": "abiep32",
+      "password": "12345678",
+      "isGV": false,
+      "id": 1
+    },
+    {
+      "dob": "16-10-2002",
+      "email": "huuhiep@gmail.com",
+      "name": "huuhiep",
+      "password": "12345678",
+      "isGV": true,
+      "id": 2
+    },
+    {
+      "dob": "01-01-1995",
+      "email": "newuser@example.com",
+      "name": "NewUser",
+      "password": "newpassword",
+      "isGV": true,
+      "id": 3
+    }
+  ],
+  "folders": [
+    {
+      "id": 1,
+      "name": "Folder X",
+      "desc": "Description of Folder X",
+      "userID": 1
+    },
+    {
+      "id": 2,
+      "name": "Folder Y",
+      "desc": "Description of Folder Y",
+      "userID": 2
+    },
+    {
+      "id": 3,
+      "name": "Folder Z",
+      "desc": "Description of New Folder",
+      "userID": 1
+    }
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "name": "Class A",
+      "desc": "Description of Class A",
+      "userID": 1,
+      "members": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Class B",
+      "desc": "Description of Class B",
+      "userID": 2,
+      "members": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "name": "New Class",
+      "desc": "Description of New Class",
+      "userID": 3,
+      "members": [
+        3
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "vocabularies": [
+        {
+          "language": "english",
+          "translation": "Translation A",
+          "vocabulary": "go",
+          "id": 1
+        },
+        {
+          "language": "vietnamese",
+          "translation": "Translation V",
+          "vocabulary": "weak",
+          "id": 2
+        },
+        {
+          "language": "english",
+          "translation": "Translation A",
+          "vocabulary": "strong",
+          "id": 3
+        },
+        {
+          "language": "vietnamese",
+          "translation": "Translation V",
+          "vocabulary": "swimming",
+          "id": 4
+        }
+      ],
+      "folderID": 1,
+      "userID": 1,
+      "classID": 1,
+      "title": "Học phần 1",
+      "desc": "Mô tả học phần 1",
+      "lastOpened": "2023-11-26T14:32:17.602Z"
+    },
+    {
+      "id": 2,
+      "vocabularies": [
+        {
+          "language": "english",
+          "translation": "Translation AA",
+          "vocabulary": "head",
+          "id": 1
+        },
+        {
+          "language": "vietnamese",
+          "translation": "Translation VV",
+          "vocabulary": "heart",
+          "id": 2
+        },
+        {
+          "language": "vietnamese",
+          "translation": "Translation VV",
+          "vocabulary": "pagoda",
+          "id": 3
+        }
+      ],
+      "folderID": 2,
+      "userID": 2,
+      "classID": 2,
+      "title": "Học phần 2",
+      "desc": "Mô tả học phần 2",
+      "lastOpened": "2023-11-26T14:33:40.579Z"
+    },
+    {
+      "id": 3,
+      "vocabularies": [
+        {
+          "language": "english",
+          "translation": "Translation A",
+          "vocabulary": "lift",
+          "id": 1
+        },
+        {
+          "language": "vietnamese",
+          "translation": "Translation V",
+          "vocabulary": "bend over",
+          "id": 2
+        },
+        {
+          "language": "english",
+          "translation": "Translation A",
+          "vocabulary": "hight",
+          "id": 3
+        },
+        {
+          "language": "vietnamese",
+          "translation": "Translation V",
+          "vocabulary": "low",
+          "id": 4
+        }
+      ],
+      "folderID": 1,
+      "userID": 2,
+      "classID": 1,
+      "title": "Học phần 3",
+      "desc": "Mô tả học phần 3",
+      "lastOpened": "2023-11-26T13:57:28.727Z"
+    },
+    {
+      "id": 4,
+      "vocabularies": [
+        {
+          "language": "english",
+          "translation": "Translation A",
+          "vocabulary": "spend",
+          "id": 1
+        },
+        {
+          "language": "vietnamese",
+          "translation": "Translation V",
+          "vocabulary": "borrow",
+          "id": 2
+        },
+        {
+          "language": "english",
+          "translation": "Translation A",
+          "vocabulary": "cat",
+          "id": 3
+        },
+        {
+          "language": "vietnamese",
+          "translation": "Translation V",
+          "vocabulary": "lion",
+          "id": 4
+        }
+      ],
+      "folderID": 1,
+      "userID": 2,
+      "classID": 1,
+      "title": "Học phần 4",
+      "desc": "Mô tả học phần 4",
+      "lastOpened": "2023-11-26T13:57:35.404Z"
+    },
+    {
+      "id": 5,
+      "vocabularies": [
+        {
+          "language": "english",
+          "translation": "Translation N",
+          "vocabulary": "new word",
+          "id": 1
+        },
+        {
+          "language": "vietnamese",
+          "translation": "Translation NV",
+          "vocabulary": "new vocab",
+          "id": 2
+        }
+      ],
+      "folderID": 2,
+      "userID": 3,
+      "classID": 3,
+      "title": "New Course",
+      "desc": "Description of New Course",
+      "lastOpened": "2023-11-26T14:52:16.960Z"
+    }
+  ]
+}
